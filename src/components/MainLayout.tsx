@@ -23,7 +23,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({ title, children }) => {
 return (
   <div>
     <Menu/>
-    <IonPage>
+    <IonPage id='main-content'>
         <IonHeader className='ion-no-border'>
             <IonToolbar style={{'--background' : '#03001d', 'color': '#fff'} as React.CSSProperties}>
                 <IonButtons slot="start">
