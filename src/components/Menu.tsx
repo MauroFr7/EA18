@@ -8,7 +8,7 @@ const Menu: React.FC = () => {
     const location = useLocation();
 
     const menuItems = [
-        { title: 'Inicio', url: '/', icon: gridOutline },
+        { title: 'Inicio', url: '/inicio', icon: gridOutline },
         { title: 'Productos', url: '/', icon: listOutline },
         { title: 'Agregar producto', url: '/home', icon: addCircleOutline },
         { title: 'Configuración', url: '/', icon: settingsOutline },
